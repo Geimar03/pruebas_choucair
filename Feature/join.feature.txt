@@ -1,0 +1,27 @@
+Scernario: Como usuario no habilitado en la pagina uTest, quiero registrarme para poder ingresar a la plataforma.
+
+When: Ingreso a la pagina uTest y preciono el boton join today
+
+And: Lleno todos los campos con mi informacion
+
+When: Preciono el boton Next:Location
+
+Then: La pagina automaticamente llena los 3 campos que pide 
+
+When: Preciono el boton Next:Devices
+
+Then: La pagina automaticamente llena 3 campos de 6 que piden
+
+And: Lleno los otros 3 campos faltantes con mi informacion
+
+When: Preciono el boton Next:Last Step
+
+And: Lleno los 2 campos que piden
+
+And: Me pide leer los terminos y condiciones y aceptarlos.
+
+And: Leo y acepto 
+
+When: Preciono el boton Complete Setup
+
+Then: Me redirecciona a la pagina principal
